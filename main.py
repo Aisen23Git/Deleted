@@ -43,9 +43,6 @@ async def info_handler(message: types.Message):
     )
 
 
-
-
-
 async def main():
     # запускаем бот
     await dp.start_polling(bot)
